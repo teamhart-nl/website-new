@@ -34,7 +34,7 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
         });
 
         $('a[href="#totop"]').click(function() {
-            $('html, body').animate({ scrollTop: 0 }, 'slow');
+            $('html, body').animate({ scrollTop: 0 }, 'fast');
             return false;
         });
 

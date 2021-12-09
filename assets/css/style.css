@@ -1099,14 +1099,6 @@ Hero Slider
   position: relative;
   display: table;
   height: 100%;
-  width: 70%;
-  margin: 0 auto;
-}
-
-.titan-caption {
-  position: relative;
-  display: table;
-  height: 100%;
   width: 100%;
   margin: 0 auto;
 }
@@ -1894,6 +1886,7 @@ Google map
 .works-grid-5 .work-item {
   width: 20%;
 }
+
 
 .work-item > a {
   position: relative;
