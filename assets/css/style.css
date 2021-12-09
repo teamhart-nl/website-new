@@ -8,9 +8,9 @@ html {
 }
 
 body {
-  background: #fff;
-  font: 400 12px/1.8 "Open Sans", sans-serif;
-  color: #666;
+  background: #19B5FE;
+  font: 400 12px/1.8 "Poppins", sans-serif;
+  color: #ec971f;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -105,7 +105,7 @@ a,
 }
 
 .et-icons .box1 {
-  border: 1px solid #e5e5e5;
+  border: 1px solid #66512c;
   display: block;
   width: 25%;
   float: left;
@@ -116,7 +116,7 @@ a,
 
 .et-icons .box1 > span {
   display: inline-block;
-  border-right: 1px solid #e5e5e5;
+  border-right: 1px solid #b92c28;
   min-width: 60px;
   min-height: 60px;
   text-align: center;
@@ -127,7 +127,7 @@ a,
 
 .fa-icons > div {
   padding: 0;
-  border: 1px solid #e5e5e5;
+  border: 1px solid #e4b9c0;
   margin: -1px 0 0 -1px;
   font-size: 13px;
 }
@@ -137,7 +137,7 @@ a,
   margin-right: 5px;
   min-width: 40px;
   min-height: 40px;
-  border-right: 1px solid #f1f1f1;
+  border-right: 1px solid #003f54;
   line-height: 40px;
   text-align: center;
   font-size: 14px;
@@ -156,7 +156,7 @@ a,
 
 .main {
   position: relative;
-  background-color: #fff;
+  background-color: #666600;
   z-index: 1;
 }
 
@@ -611,11 +611,11 @@ a,
   height: 100%;
   left: 0;
   top: 0;
-  background-color: rgba(66, 26, 107, 0.9);
+  background-color: #8800ff;
 }
 
 .landing-reason {
-  color: #fff;
+  color: #368a55;
   font-size: 13px;
 }
 
