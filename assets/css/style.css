@@ -9,7 +9,7 @@ html {
 
 body {
   background: #fff;
-  font: 400 12px/1.8 "Open Sans", sans-serif;
+  font: 400 12px/1.8 "Poppins", sans-serif;
   color: #666;
   -webkit-font-smoothing: antialiased;
 }
@@ -1496,6 +1496,13 @@ General Styles - Owlcarousel
 
 .banner-img {
   margin-top: -145px;
+}
+
+.navbar-img {
+  margin-top: 25px;
+  margin-left: 25px;
+  heigth: 15%;
+  width: 15%;
 }
 
 .shop-page-header:before {
