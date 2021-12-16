@@ -1262,7 +1262,7 @@ General Styles - Owlcarousel
 }
 
 .navbar-custom .navbar-brand {
-  letter-spacing: 4px;
+  max-width: 20%;
   font-weight: 400;
   font-size: 22px;
   color: #fff;
