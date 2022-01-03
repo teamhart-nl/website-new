@@ -4,7 +4,7 @@
 (function(){
     $(window).on('load', function() {
         $('.loader').fadeOut();
-        $('.page-loader').delay(350).fadeOut('slow');
+        $('.page-loader').delay(150).fadeOut('slow');
     });
 
     $(document).ready(function() {
@@ -47,6 +47,7 @@
             width       = Math.max($(window).width(), window.innerWidth),
             mobileTest  = false;
 
+        // console.log(navbar)
         if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
             mobileTest = true;
         }
