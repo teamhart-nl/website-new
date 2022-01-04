@@ -1173,14 +1173,8 @@ General Styles - Owlcarousel
 }
 
 .banner-img {
-  margin-top: -145px;
-}
-
-.navbar-img {
-  margin-top: 25px;
-  margin-left: 25px;
-  heigth: 15%;
-  width: 15%;
+  width: 150px;
+  margin-top: -10px;
 }
 
 .shop-page-header:before {
