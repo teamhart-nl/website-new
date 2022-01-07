@@ -13,7 +13,7 @@
     background-color: #18151f;
 }
 .postcard.light {
-    background-color: #e1e5ea;
+    background-color: #e8e1ea;
 }
 .postcard .t-dark {
     color: #18151f;
@@ -158,10 +158,29 @@
         background: #18151f;
     }
     .postcard.light .postcard__text:before {
-        background: #e1e5ea;
+        background: #e8e1ea;
     }
 }
 /* COLORS */
+.postcard .postcard__tagbox .purple.play:hover {
+    background: #B0A7F9;
+    color: black;
+}
+.purple .postcard__title:hover {
+    color: #8800FF;
+}
+.purple .postcard__bar {
+    background-color: #8800FF;
+}
+.purple::before {
+    background-image: linear-gradient(-30deg, rgba(136, 0, 255, 0.3), transparent 50%);
+}
+.purple:nth-child(2n)::before {
+    background-image: linear-gradient(30deg, rgba(136, 0, 255, 0.3), transparent 50%);
+}
+
+
+
 .postcard .postcard__tagbox .green.play:hover {
     background: #79dd09;
     color: black;
@@ -225,6 +244,13 @@
     background-image: linear-gradient(30deg, rgba(189, 187, 73, 0.1), transparent 50%);
 }
 @media screen and (min-width: 769px) {
+    .purple::before {
+        background-image: linear-gradient(-80deg, rgba(136, 0, 255, 0.1), transparent 50%);
+    }
+    .purple:nth-child(2n)::before {
+        background-image: linear-gradient(80deg, rgba(136, 0, 255, 0.1), transparent 50%);
+    }
+
     .green::before {
         background-image: linear-gradient(-80deg, rgba(121, 221, 9, 0.1), transparent 50%);
     }
