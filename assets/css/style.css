@@ -1072,12 +1072,12 @@ General Styles - Owlcarousel
     text-transform: uppercase;
     letter-spacing: 3px;
     font-weight: bolder;
-    font-size: 11px;
+    font-size: 20px;
     transition: background, padding 0.4s ease-in-out 0s;
 }
 
-.navbar-transparent .navbar-nav .nav-link {
-    color: black;
+.navbar .navbar-nav .nav-link {
+    color: #8800FF;
 }
 
 .navbar a {
