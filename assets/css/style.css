@@ -1256,6 +1256,10 @@ General Styles - Owlcarousel
     margin: 0;
 }
 
+.footer a {
+    color: black;
+}
+
 .footer .footer-social-links {
     text-align: right;
 }
