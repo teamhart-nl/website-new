@@ -3,8 +3,8 @@
  /* ---------------------------------------------- */
 (function(){
     $(window).on('load', function() {
-        $('.loader').fadeOut();
-        $('.page-loader').delay(150).fadeOut('slow');
+        $('.loader').fadeOut(50);
+        $('.page-loader').delay(10).fadeOut('slow');
     });
 
     $(document).ready(function() {
