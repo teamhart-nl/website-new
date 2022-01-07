@@ -5,6 +5,8 @@ html {
     overflow-y: scroll;
     overflow-x: hidden;
     -ms-overflow-style: scrollbar;
+    position: relative;
+    min-height: 100vh;
 }
 
 body {
@@ -1248,6 +1250,7 @@ General Styles - Owlcarousel
 --------------------------------------------------------------*/
 .footer {
     padding: 10px 0;
+    bottom: 0;
 }
 
 .footer .copyright {
