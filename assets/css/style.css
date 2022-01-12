@@ -834,8 +834,7 @@ blockquote {
 }
 
 .font-serif {
-  font-family: Volkhov, "Poppins", sans-serif;
-  font-style: italic;
+  font-family: "Poppins", sans-serif;
 }
 
 .large-text {
@@ -901,7 +900,7 @@ blockquote {
 
 /* Landing Page */
 .landing-reason .module-title {
-  color: #e6af4b;
+  color: #FFC34A;
 }
 
 .landing-reason .module-title + .module-subtitle {
@@ -1164,7 +1163,7 @@ General Styles - Owlcarousel
 /* Landing Page Header */
 .landing-header:before {
   position: absolute;
-  background: linear-gradient(to bottom, rgba(16, 0, 43, 1) 0%, rgba(16, 0, 43, 0.80) 33%, rgba(16, 0, 43, 0.50) 66%, rgba(16, 0, 43, 0) 100%);
+  background: rgba(136,0,255);
   content: " ";
   height: 100%;
   width: 100%;
