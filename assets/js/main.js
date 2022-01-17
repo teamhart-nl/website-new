@@ -3,11 +3,21 @@
  /* ---------------------------------------------- */
 (function(){
     $(window).on('load', function() {
-        $('.loader').fadeOut(50);
-        $('.page-loader').delay(10).fadeOut('slow');
+        $('.loader').fadeOut(100);
+        $('.page-loader').fadeOut('slow');
     });
 
     $(document).ready(function() {
+
+        $.event.special.touchstart = {
+            setup: function( _, ns, handle ){
+                if ( ns.includes("noPreventDefault") ) {
+                    this.addEventListener("touchstart", handle, { passive: false });
+                } else {
+                    this.addEventListener("touchstart", handle, { passive: true });
+                }
+            }
+        };
 
         /* ---------------------------------------------- /*
          * WOW Animation When You Scroll
@@ -113,6 +123,7 @@
          /* ---------------------------------------------- */
 
         function navbarAnimation(navbar, homeSection, navHeight) {
+            // console.log(navbar, homeSection)
             var topScroll = $(window).scrollTop();
             if (navbar.length > 0 && homeSection.length > 0) {
                 if(topScroll >= navHeight) {
